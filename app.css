@@ -27,7 +27,11 @@ background-repeat:no-repeat;
  alignment-adjust:central;
  
   }
-  
+  /*.center-b{
+   margin-left:300px;
+   }
+   
+   */
  li {
   display:inline-block;
   background-color: #EEE;
