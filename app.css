@@ -38,7 +38,8 @@ background-repeat:no-repeat;
   border: 2px solid;
   border-color: #F3F3F3 #BBB #BBB #F3F3F3;
   margin: 2px;
-  padding: .5em;
+  padding: .10em;
+  
 }
 
 ul {
@@ -69,4 +70,19 @@ font-weight: bold;
 text-align: center;
 width:auto;
 opacity:0.9;
+}
+
+.Grid-container {
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.Grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
