@@ -18,7 +18,7 @@ background-repeat:no-repeat;
 
  
  h1 {
- color:#1660B5;
+ color:white;
  font-family:monospace;
  background-color:#6E7C8C;
  opacity:0.8;
@@ -34,7 +34,6 @@ background-repeat:no-repeat;
    */
  li {
   display:inline-block;
-  background-color: #EEE;
   border: 2px solid;
   border-color: #F3F3F3 #BBB #BBB #F3F3F3;
   margin: 2px;
@@ -51,7 +50,7 @@ padding: .5em;
 width:auto;
 height:50px;
 text-align:center;
-opacity:0.8;
+opacity:0.7;
  }
  
  div { display: flexbox;
@@ -64,8 +63,7 @@ width:auto;
 }
 p { flex: 1 auto; margin: 2em;
 font-family: sans-serif;
-color: white;
-background: #CE7DC6;
+color: black;
 font-weight: bold;
 text-align: center;
 width:auto;
