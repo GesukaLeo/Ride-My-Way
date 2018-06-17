@@ -22,7 +22,7 @@ background-repeat:no-repeat;
  font-family:monospace;
  background-color:#6E7C8C;
  opacity:0.8;
- width:350px;
+ width:auto;
  text-align:center;
  alignment-adjust:central;
  
@@ -47,19 +47,19 @@ border: 1px solid;
 border-color: #F3F3F3 #BBB #BBB #F3F3F3;
 margin: 2px;
 padding: .5em;
-width:340px;
+width:auto;
 height:50px;
 text-align:center;
 opacity:0.8;
  }
  
  div { display: flexbox;
-display: -ms-flex;
-display: -moz-flex;
-display: -o-flex;
-display: -webkit-flex;
+display: -ms-flexbox;
+display: -moz-flexbox;
+display: -o-flexbox;
+display: -webkit-flexbox;
 outline: 2px solid silver;
-width:350px;
+width:auto;
 }
 p { flex: 1 auto; margin: 2em;
 font-family: sans-serif;
@@ -67,6 +67,6 @@ color: white;
 background: #CE7DC6;
 font-weight: bold;
 text-align: center;
-width:300px;
+width:auto;
 opacity:0.9;
 }
