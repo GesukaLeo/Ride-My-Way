@@ -21,7 +21,9 @@ background-repeat:no-repeat;
  color:#1660B5;
  font-family:monospace;
  background-color:#6E7C8C;
- opacity:0.78;
+ opacity:0.8;
+ width:350px;
+ text-align:center;
  alignment-adjust:central;
  
   }
@@ -29,7 +31,7 @@ background-repeat:no-repeat;
  li {
   display:inline-block;
   background-color: #EEE;
-  border: 1px solid;
+  border: 2px solid;
   border-color: #F3F3F3 #BBB #BBB #F3F3F3;
   margin: 2px;
   padding: .5em;
@@ -41,16 +43,21 @@ border: 1px solid;
 border-color: #F3F3F3 #BBB #BBB #F3F3F3;
 margin: 2px;
 padding: .5em;
-width:auto;
+width:340px;
 height:50px;
+text-align:center;
 opacity:0.8;
  }
  
  div { display: flexbox;
+display: -ms-flexbox;
+display: -moz-flexbox;
+display: -o-flexbox;
+display: -webkit-flexbox;
 outline: 2px solid silver;
 width:350px;
 }
-p { flex: 1 auto; margin: 1em;
+p { flex: 1 auto; margin: 2em;
 font-family: sans-serif;
 color: white;
 background: #CE7DC6;
