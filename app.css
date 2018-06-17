@@ -50,10 +50,10 @@ opacity:0.8;
  }
  
  div { display: flexbox;
-display: -ms-flexbox;
-display: -moz-flexbox;
-display: -o-flexbox;
-display: -webkit-flexbox;
+display: -ms-flex;
+display: -moz-flex;
+display: -o-flex;
+display: -webkit-flex;
 outline: 2px solid silver;
 width:350px;
 }
