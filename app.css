@@ -41,7 +41,21 @@ border: 1px solid;
 border-color: #F3F3F3 #BBB #BBB #F3F3F3;
 margin: 2px;
 padding: .5em;
-width:150px;
+width:auto;
 height:50px;
 opacity:0.8;
  }
+ 
+ div { display: flexbox;
+outline: 2px solid silver;
+width:350px;
+}
+p { flex: 1 auto; margin: 1em;
+font-family: sans-serif;
+color: white;
+background: #CE7DC6;
+font-weight: bold;
+text-align: center;
+width:300px;
+opacity:0.9;
+}
