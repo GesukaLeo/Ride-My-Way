@@ -11,21 +11,32 @@
 
 body {
 color:#4C3434;
-background-image: url('');
-background-color:transparent;
+background-image: url('cars-pool.jpg');
+background-position:center;
+background-repeat:no-repeat;
  }
 
  
  h1 {
  color:#1660B5;
  font-family:monospace;
+ background-color:#6E7C8C;
+ opacity:0.78;
+ alignment-adjust:central;
  
   }
   
  li {
   display:inline;
-background-color: #EEE;
-border: 1px solid;
-border-color: #F3F3F3 #BBB #BBB #F3F3F3;
-margin: 2px;
-padding: .5em;
+  background-color: #EEE;
+  border: 1px solid;
+  border-color: #F3F3F3 #BBB #BBB #F3F3F3;
+  margin: 2px;
+  padding: .5em;
+}
+
+ul {
+background-color:#329539;
+width:200px;
+height:50px;
+ }
