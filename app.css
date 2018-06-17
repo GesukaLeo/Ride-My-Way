@@ -1,0 +1,42 @@
+/* this the main css for the Ride My Way App
+
+** @Author Leonard Gesuka
+
+*** For Andela Task 1 Challenge
+
+** Date Sunday 17 June, 2018
+
+
+***/
+
+body {
+color:#4C3434;
+background-image: url('cars-pool.jpg');
+background-position:center;
+background-repeat:no-repeat;
+ }
+
+ 
+ h1 {
+ color:#1660B5;
+ font-family:monospace;
+ background-color:#6E7C8C;
+ opacity:0.78;
+ alignment-adjust:central;
+ 
+  }
+  
+ li {
+  display:inline;
+  background-color: #EEE;
+  border: 1px solid;
+  border-color: #F3F3F3 #BBB #BBB #F3F3F3;
+  margin: 2px;
+  padding: .5em;
+}
+
+ul {
+background-color:#329539;
+width:200px;
+height:50px;
+ }
