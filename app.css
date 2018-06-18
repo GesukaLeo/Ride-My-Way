@@ -36,10 +36,15 @@ background-repeat:no-repeat;
   display:inline-block;
   border: 2px solid;
   border-color: #F3F3F3 #BBB #BBB #F3F3F3;
+  text-decoration:none;
   margin: 2px;
   padding: .10em;
   
 }
+a{
+text-decoration:none; 
+}
+
 
 ul {
 background-color:#F48F1C;
@@ -83,4 +88,15 @@ opacity:0.9;
   padding: 20px;
   text-align: center;
   opacity:0.8;
+}
+
+.button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
 }
