@@ -19,7 +19,7 @@ background-repeat:no-repeat;
  
  h1 {
  color:white;
- font-family:monospace;
+ font-family:arial black;
  background-color:#094ebc;
  font-style:bold;
  opacity:0.8;
@@ -53,11 +53,10 @@ background-color:#F48F1C;
 border: 1px solid;
 border-color: #F3F3F3 #BBB #BBB #F3F3F3;
 margin: 2px;
-padding: .5em;
+padding: 1em;
 width:auto;
 height:50px;
 text-align:center;
-opacity:0.9;
  }
  
  
