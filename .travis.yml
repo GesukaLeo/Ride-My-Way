@@ -1,3 +1,13 @@
 language: python
-rvm: 
- -3.6
+python: 
+ -3.6.5
+
+install:
+-pip install -r requirements.txt
+-pip install coveralls
+
+script:
+-pytest --with-coverage --cover-package=Api
+
+after_success:
+-coveralls
