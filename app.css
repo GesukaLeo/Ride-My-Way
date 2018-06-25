@@ -10,7 +10,7 @@
 ***/
 
 body {
-color:#4C3434;
+color:#456fb2;
 background-image: url('car-back.png');
 background-position:center;
 background-repeat:no-repeat;
@@ -20,7 +20,8 @@ background-repeat:no-repeat;
  h1 {
  color:white;
  font-family:monospace;
- background-color:#6E7C8C;
+ background-color:#094ebc;
+ font-style:oblique;
  opacity:0.8;
  width:auto;
  text-align:center;
