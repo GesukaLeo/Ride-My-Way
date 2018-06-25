@@ -91,15 +91,18 @@ opacity:0.9;
   opacity:0.8;
 }
 
-.button {
-    background-color: white; 
-    color: white; 
-    border: 2px solid #094ebc;
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-.button:hover {
-    background-color: #094ebc;
-    color: white;
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
 }
 
 .card {
