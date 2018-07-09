@@ -1,13 +1,13 @@
-from flask import flask
+from flask import Flask, jsonify
 
-app = flask(__name__)
+app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World!"
+    return jsonify({"about": "Hello World! Gesuka is here now RESTful"})
 
 def main():
     pass
 
 if __name__ == '__main__':
-    app run(debug=True)
+    app.run(debug=True)
