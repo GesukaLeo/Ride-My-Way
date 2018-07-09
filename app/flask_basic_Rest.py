@@ -5,11 +5,11 @@ app = Flask(__name__)
 @app.route('/', methods = ['GET', 'POST'])
 
 def index():
-    if (request.methods == 'POST'):
+    if (request.method == 'POST'):
         some_json = request.get_json()
         return jsonify({"you sent": some_json}), 201
 
-     else:
+    else:
          return jsonify({"about": "Hello World! Gesuka RESTful here.."})
 
 
